@@ -1,0 +1,67 @@
+.typecontacts-main-container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 91px;
+    gap: 25px;
+    flex-direction: column;
+    background-image: url("../../assets/svg/backgroundapp.svg");
+}
+
+.typecontacts-container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+    background: rgb(34, 40, 45);
+    background: linear-gradient(0deg, rgba(34, 40, 45, 1) 0%, rgba(23, 24, 24, 1) 100%);
+    padding: 15px 50px;
+}
+
+.typecontacts-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.typecontacts-link:hover {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: .7s;
+}
+
+.typecontacts-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-button {
+    background: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.back-button:hover {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.link-back {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}

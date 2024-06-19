@@ -1,0 +1,39 @@
+.services-main-container{
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 515px;
+    /* background-image: url("../../assets/svg/backgroundapp.svg");
+    background-position: center;
+    background-size: cover; */
+}
+
+.switch-service-container{
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    margin-top: 20px;
+    padding: 25px 91px;
+    gap: 25px;
+}
+
+.switch-service-button{
+    background-color: rgba(255, 255, 255, .5);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.switch-service-button:hover{
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.switch-service-button.active{
+    background-color: #006CBE;
+    color: #fff;
+    transition: .7s;
+}

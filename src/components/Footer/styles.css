@@ -1,0 +1,125 @@
+.footer-main-container {
+    width: 100%;
+    max-height: 300px;
+    box-sizing: border-box;
+    background-color: rgba(0, 18, 28, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 71px 91px 15px 91px;
+    gap: 30px;
+}
+
+.informations-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.logo-footer-container h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.socialmedia-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socialmedia-info h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.socialmedia-info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.socialmedia-info ul li {
+    list-style: none;
+}
+
+.socialmedia-info ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cellphone,
+.whatsapp {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.cellphone {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    transition: .7s;
+}
+
+.cellphone:hover {
+    background-color: #006CBE;
+    border: 1px solid #006CBE;
+}
+
+.whatsapp {
+    color: #fff;
+    background-color: #006CBE;
+    border: 1px solid #006CBE;
+    border-radius: 10px;
+    transition: .7s;
+}
+
+.whatsapp:hover {
+    background: none;
+    border: 1px solid #fff;
+}
+
+.copy-container p{
+    color: #5f5f5f;
+    font-size: 16px;
+}
