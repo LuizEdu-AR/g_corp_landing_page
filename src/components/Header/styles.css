@@ -1,4 +1,4 @@
-.header-main-container{
+.header-main-container {
     box-sizing: border-box;
     background-color: rgba(0, 18, 28, .5);
     width: 100%;
@@ -11,29 +11,29 @@
     z-index: 1;
 }
 
-.logo-header-container{
+.logo-header-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
 
-.logo-header-container h3{
+.logo-header-container h3 {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
 }
 
-.blue-color{
+.blue-color {
     color: #006CBE;
 }
 
-.options-header-container ul{
+.options-header-container ul {
     display: flex;
     gap: 25px;
 }
 
-.options-header-container ul li{
+.options-header-container ul li {
     list-style: none;
     color: #fff;
     font-size: 16px;
@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 
-.options-header-container ul li a{
+.options-header-container ul li a {
     text-decoration: none;
     color: #fff;
     position: relative;
@@ -49,12 +49,12 @@
     padding: 5px 10px;
 }
 
-.git-header-container{
+.git-header-container {
     display: flex;
     align-items: center;
 }
 
-.git-header-container button{
+.git-header-container button {
     background-color: #fff;
     color: #006CBE;
     font-size: 16px;
@@ -64,9 +64,12 @@
     border-radius: 50px;
     cursor: pointer;
     transition: .7s;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
-.git-header-container button:hover{
+.git-header-container button:hover {
     background-color: #006CBE;
     color: #fff;
     border-radius: 0px;
@@ -94,9 +97,9 @@
     z-index: -1;
     transform-origin: right;
     transform: scaleX(0);
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 18, 28, 1);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 18, 28, 1);
-    box-shadow: 0px 0px 10px 0px rgba(0, 18, 28, 1);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 .options-header-container ul li a:hover::before {
@@ -106,12 +109,14 @@
 }
 
 /* media queries */
-@media screen and (min-width: 320px) and (max-width: 375px){
-    .options-header-container, .git-header-container{
+@media screen and (min-width: 320px) and (max-width: 375px) {
+
+    .options-header-container,
+    .git-header-container {
         display: none;
     }
 
-    .header-main-container{
+    .header-main-container {
         padding: 15px 20px;
         display: flex;
         align-items: center;
@@ -119,12 +124,14 @@
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 425px){
-    .options-header-container, .git-header-container{
+@media screen and (min-width: 375px) and (max-width: 425px) {
+
+    .options-header-container,
+    .git-header-container {
         display: none;
     }
 
-    .header-main-container{
+    .header-main-container {
         padding: 15px 20px;
         display: flex;
         align-items: center;
@@ -132,26 +139,26 @@
     }
 }
 
-@media screen and (min-wdith: 425px) and (max-width: 768px){
-    .options-header-container{
+@media screen and (min-wdith: 425px) and (max-width: 768px) {
+    .options-header-container {
         display: none;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    .header-main-container{
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-main-container {
         padding: 15px 35px;
     }
 
-    .options-header-container ul{
+    .options-header-container ul {
         gap: 10px;
     }
 
-    .options-header-container ul li{
+    .options-header-container ul li {
         font-size: 14px;
     }
 
-    .git-header-container button{
+    .git-header-container button {
         font-size: 14px;
     }
 }

@@ -2,6 +2,8 @@ import './styles.css'
 
 import LogoHeader from '../../assets/img/g-header.png'
 
+import { Link } from 'react-router-dom'
+
 const Header = () => {
 
   const handleNavigation = (e, sectionId) => {
@@ -13,7 +15,7 @@ const Header = () => {
     <div className='header-main-container'>
       <div className="logo-header-container">
         <img src={LogoHeader} alt="Logo do Git" />
-        <h3>- Corp <span className='blue-color'>Software</span> Solutions</h3>
+        <Link to="/" style={{textDecoration:"none"}}><h3>- Corp <span className='blue-color'>Software</span> Solutions</h3></Link>
       </div>
       <div className="options-header-container">
         <ul>
@@ -26,7 +28,7 @@ const Header = () => {
       <div className="git-header-container">
         <button onClick={() => window.open('https://github.com', '_blank')}>GitHub</button>
       </div>
-    </div>
+    </div >
   )
 }
 
