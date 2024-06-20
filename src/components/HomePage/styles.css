@@ -55,6 +55,7 @@
 
 .logo-home img {
     transform: scale(0.8);
+    z-index: 0;
 }
 
 .linha-home {

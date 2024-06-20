@@ -8,6 +8,7 @@
     align-items: center;
     padding: 15px 91px;
     position: fixed;
+    z-index: 1;
 }
 
 .logo-header-container{
