@@ -1,4 +1,4 @@
-.marketing-main-container{
+.marketing-main-container {
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@
     gap: 15px;
 }
 
-.marketing-container{
+.marketing-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
     width: 100%;
 }
 
-.info-marketing{
+.info-marketing {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,17 +26,17 @@
     gap: 20px;
 }
 
-.info-marketing h2{
+.info-marketing h2 {
     font-weight: 500;
     color: #006CBE;
 }
 
-.info-marketing p{
+.info-marketing p {
     font-size: 16px;
     color: #fff;
 }
 
-.img-marketing{
+.img-marketing {
     max-width: 280px;
     max-height: 280px;
     border-radius: 50px;
@@ -47,20 +47,113 @@
     box-shadow: 0px 0px 16.68px 0px rgba(0, 108, 190, 1);
 }
 
-.img{
+.img {
     width: 280px;
     height: 260px;
     border-radius: 50px;
 }
 
-.rooy{
+.rooy {
     background-image: url("../../assets/img/rooy.jfif");
     background-size: cover;
     background-position: center;
 }
 
-.luiz{
+.luiz {
     background-image: url("../../assets/img/luiz.jfif");
     background-size: cover;
     background-position: center;
+}
+
+/* media queries */
+@media screen and (min-width: 320px) and (max-width: 375px){
+    .marketing-main-container{
+        padding: 35px 20px;
+        gap: 10px;
+        overflow-x: auto;
+        width: 750px;
+    }
+
+    .info-marketing{
+        width: 200px;
+    }
+
+    .info-marketing h2{
+        font-size: 24px;
+    }
+
+    .info-marketing p{
+        font-size: 14px;
+    }
+
+    .img-marketing{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .img{
+        width: 200px;
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .marketing-main-container {
+        gap: 200px;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        height: 300px;
+    }
+
+    .marketing-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .description{
+        display: none;
+    }
+
+    .info-marketing h2 {
+        font-size: 16px;
+    }
+
+    .info-marketing p {
+        font-size: 12px;
+    }
+
+    .img-marketing {
+        max-width: 160px;
+        max-height: 160px;
+    }
+
+    .img-marketing .img {
+        width: 160px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    .marketing-main-container{
+        padding: 35px 35px;
+        overflow-x: auto;
+        gap: 100px;
+    }
+
+    .info-marketing{
+        width: 300px;
+    }
+
+    .img-marketing {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .img{
+        width: 200px;
+        height: 180px;
+    }
 }

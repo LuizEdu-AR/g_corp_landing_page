@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px 91px;
+    padding: 85px 91px 25px 91px;
     gap: 25px;
     flex-direction: column;
     background-image: url("../../assets/svg/backgroundapp.svg");
@@ -23,6 +23,7 @@
     background: rgb(34, 40, 45);
     background: linear-gradient(0deg, rgba(34, 40, 45, 1) 0%, rgba(23, 24, 24, 1) 100%);
     padding: 15px 50px;
+    border-radius: 20px;
 }
 
 .typecontacts-link {
@@ -65,3 +66,49 @@
     text-decoration: none;
     font-size: 24px;
 }
+
+/* media queries */
+@media screen and (min-width: 320px) and (max-width: 375px){
+    .typecontacts-main-container{
+        padding: 75px 20px 15px 20px;
+    }
+
+    .typecontacts-container{
+        padding: 15px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .typecontacts-logo{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .typecontacts-main-container{
+        padding: 85px 50px 25px 50px;
+    }
+
+    .typecontacts-container{
+        padding: 15px 50px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .typecontacts-main-container{
+        padding: 75px 20px 15px 20px;
+    }
+
+    .typecontacts-container{
+        padding: 15px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .typecontacts-logo{
+        display: none;
+    }
+}
+

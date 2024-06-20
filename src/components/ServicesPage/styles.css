@@ -35,5 +35,42 @@
 .switch-service-button.active{
     background-color: #006CBE;
     color: #fff;
-    transition: .7s;
+    transition: .3s;
+}
+
+/* media queries */
+@media screen and (min-width: 320px) and (max-width: 375px){
+    .switch-service-container{
+        padding: 25px 20px;
+        gap: 5px;
+    }
+
+    .switch-service-button{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+    .switch-service-container{
+        padding: 25px 20px;
+        gap: 5px;
+    }
+
+    .switch-service-button{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .switch-service-button{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    .switch-service-container{
+        padding: 35px;
+    }
 }

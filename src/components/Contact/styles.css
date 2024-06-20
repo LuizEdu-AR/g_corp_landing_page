@@ -61,3 +61,62 @@
     background-color: #5297FF;
     border-radius: 40px;
 }
+
+/* media queries */
+@media screen and (min-width: 320px) and (max-width: 375px){
+    .contact-main-container{
+        padding: 15px 20px;
+    }
+
+    .contact-container{
+        max-height: 280px;
+        max-width: 300px;
+        gap: 5px;
+        padding: 15px;
+    }
+
+    .button-contact{
+        padding: 50px;
+    }
+
+    .button-contact button{
+        padding: 15px 20px;
+    }
+
+    .info-contact h2{
+        font-size: 16px;
+    }
+
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+    .contact-main-container{
+        padding: 15px 20px;
+    }
+
+    .contact-container{
+        max-height: 280px;
+        max-width: 300px;
+        gap: 5px;
+        padding: 15px;
+    }
+
+    .button-contact{
+        padding: 50px;
+    }
+
+    .button-contact button{
+        padding: 15px 20px;
+    }
+
+    .info-contact h2{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    .contact-main-container{
+        padding: 35px 35px;
+    }
+}
