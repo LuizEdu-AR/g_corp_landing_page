@@ -8,6 +8,9 @@ import Contact from '../components/Contact'
 import './MainPage.css'
 
 const MainPage = () => {
+
+  document.title = 'G-Corp Software Solutions'
+
   return (
     <div className='mainpage'>
         <HomePage />
