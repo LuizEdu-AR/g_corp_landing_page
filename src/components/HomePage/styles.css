@@ -6,7 +6,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 35px 91px;
-    background-image: url("../../assets/svg/backgroundapp.svg");
+    background: linear-gradient(0deg, rgba(23, 24, 24, .5) 0%, rgba(34, 40, 45, .5) 100%);
+    /* background-image: url("../../assets/svg/backgroundapp.svg"); */
 }
 
 .information-home {

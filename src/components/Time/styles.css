@@ -1,4 +1,4 @@
 .time-container {
     background: rgb(34, 40, 45);
-    background: linear-gradient(0deg, rgba(34, 40, 45, 1) 0%, rgba(23, 24, 24, 1) 100%);
+    background: linear-gradient(0deg, rgba(23, 24, 24, .5) 0%, rgba(34, 40, 45, .5) 100%);
 }
