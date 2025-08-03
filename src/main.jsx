@@ -29,7 +29,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+  basename: "/g_corp_landing_page"
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
